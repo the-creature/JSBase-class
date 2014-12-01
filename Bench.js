@@ -1,7 +1,7 @@
 (function(){
 
 	/*
-	*Trash class in Lab.
+	*Bench class in Lab.
 	*/
 	function Bench(name){
 		this.name = name;
@@ -15,7 +15,7 @@
 		console.log("execute the Bench place method with name is :"+this.name);
 	}
 
-	//new a instance of Trash class.
+	//new a instance of Bench class.
 	var bench=new Bench("Bench");
 
 	//execute the action method which inheirt from Equipment class.
